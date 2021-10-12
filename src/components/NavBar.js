@@ -6,7 +6,7 @@ import { IoIosArrowBack } from 'react-icons/io';
 const NavBar = () => (
   <>
     <div className="navbar">
-      <Link to="/">
+      <Link to="/" className="links">
         <IoIosArrowBack />
       </Link>
       <span className="nav-title">Covid Stats</span>
