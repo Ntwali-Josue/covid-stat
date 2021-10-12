@@ -10,8 +10,10 @@ const App = () => (
   <div className="App">
     <Router>
       <NavBar />
-      <Home />
       <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
         <Route path="/continent-1">
           <Continent />
         </Route>
