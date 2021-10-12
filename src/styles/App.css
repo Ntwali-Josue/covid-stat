@@ -13,8 +13,8 @@
     font-size: 30px;
   }
 
-  .header {
-    padding: 20px 5px; 
+  .home-header {
+    padding: 20px 5px;
     margin: 0;
     background: url(/src/images/covid-logo.jpg);
     opacity: 0.6;
