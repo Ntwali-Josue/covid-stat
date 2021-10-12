@@ -2,3 +2,24 @@
   margin: 0;
   padding: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    color: #fff;
+    background-color: #d3446f;
+    padding: 25px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+  }
+
+  .header {
+    padding: 20px 5px; 
+    margin: 0;
+    background: url(/src/images/covid-logo.jpg);
+    opacity: 0.6;
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+  }
+}
