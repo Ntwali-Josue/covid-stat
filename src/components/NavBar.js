@@ -1,11 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { IoIosArrowBack } from 'react-icons/io';
 
 const NavBar = () => (
   <>
     <div className="navbar">
-      <IoIosArrowBack />
+      <Link to="/">
+        <IoIosArrowBack />
+      </Link>
       <span className="nav-title">Covid Stats</span>
       <FiSettings />
     </div>
