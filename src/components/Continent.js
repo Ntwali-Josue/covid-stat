@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchStats } from '../redux/stats/statsReducer';
 import Home from './Home';
+import Header from './Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Continent = () => {
   const dispatch = useDispatch();
@@ -19,7 +21,10 @@ const Continent = () => {
 
   return (
     <div>
-      {allStats}
+      <Header />
+      <div className="all-continents">
+        {allStats}
+      </div>
     </div>
   );
 };
