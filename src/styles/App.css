@@ -23,17 +23,6 @@
     font-size: 30px;
   }
 
-  .stats-summary {
-    display: flex;
-  }
-
-  .sum1 {
-    background: #c84989;
-    width: 25%;
-    padding: 20px;
-    color: #fff;
-  }
-
   .continents {
     display: flex;
   }
@@ -48,5 +37,17 @@
   .links {
     color: #fff;
     text-decoration: none;
+  }
+
+  .sum1 {
+    background: #c84989;
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .all-continents {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 }
